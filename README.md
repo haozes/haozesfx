@@ -13,8 +13,10 @@ The project written by haozes at 2009,so it may not run propely. Let me know if 
 
 ##  Description
 There are three parts in project:
-1. FxClient:  Fetion login process and SIPC Protocol parser.
-2. FxRobot:	 The host of FxClient show how to use in a winform application,which can forwards received msg to fxplugin.
+1. FxClient:  Fetion login process and SIPC Protocol parser.  
+
+2. FxRobot:	 The host of FxClient show how to use in a winform application,which can forwards received msg to fxplugin.  
+
 3. FxPlugin: plugins can reiceve Fetion messages then parse the text to execute some cmds like fetch weather report,send/reiceve e-mail,etc.
 
 
