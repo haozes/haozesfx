@@ -11,7 +11,8 @@ http://haozesfx.codeplex.com/
 The project written by haozes at 2009,so it may not run propely. Let me know if you want to use it.
 
 ##  Description
-There are three parts in project:
+There are three parts in project:  
+
 1. FxClient:  Fetion login process and SIPC Protocol parser.  
 
 2. FxRobot:	 The host of FxClient show how to use in a winform application,which can forwards received msg to fxplugin.  
