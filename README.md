@@ -4,7 +4,6 @@ A project about China Mobile Fetion,written by C#, which implements Fetion SIPC 
 
 The project shows how to login and send/receive Fetion message,add friend or accept friend request.
 
-And you can develop more plugin for it .
 
 The old source host:
 http://haozesfx.codeplex.com/
