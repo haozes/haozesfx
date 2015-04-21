@@ -8,6 +8,7 @@ using System.IO;
 using System.Web.Security;
 using System.Security.Cryptography.X509Certificates;
 using System.Net.Security;
+using Haozes.FxClient.LoginTemplate;
 
 namespace Haozes.FxClient.CommUtil
 {
@@ -85,7 +86,7 @@ namespace Haozes.FxClient.CommUtil
             string url = string.Format("http://nav.fetion.com.cn/nav/GetPicCodeV4.aspx?algorithm={0}", algorithm);
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
-            request.UserAgent = "IIC2.0/PC 4.0.3390";
+            request.UserAgent = "IIC2.0/PC "+FetionTemplate.ClientVersion;
             request.Method = "GET";
 
             //返回HTML
